@@ -1,0 +1,1 @@
+Obtain the official TrafficFlowBench helper code from the competition release after checking its licence. Expected directories: task1, task2, task3, task4, release; expected root file: merge_submissions.py. These files are not redistributed until their upstream licence has been verified.

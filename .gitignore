@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env*
+*.pem
+*.key
+data/
+models/
+checkpoints/
+*.parquet
+*.pt
+*.safetensors
+*.npy
+*.npz

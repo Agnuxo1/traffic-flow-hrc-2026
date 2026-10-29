@@ -1,0 +1,1 @@
+The upstream official helpers are required for exact scoring/merging and are intentionally obtained separately. The README reproduction commands require that prerequisite; syntax checks do not establish an end-to-end successful release.

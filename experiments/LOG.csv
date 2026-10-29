@@ -1,0 +1,7 @@
+id,fecha_utc,tarea,hipotesis,config,semilla,metrica_local,valor,decision
+E000,2026-10-29,T1,smoke D12_I405_S holdout 45d,profile,0,S_state_holdout,0.7462,control
+E001,2026-10-29,T1,interp residual mejora perfil,interp,0,S_state_holdout,0.9027,control B
+E002,2026-10-29,T1,LGBM residual+conservacion mejora interp,lgbm sample100k,0,S_state_holdout,0.9245,seguir (todos los corredores en server)
+E003,2026-10-29,T2,smoke D12_I5_S holdout: LGBM+HRC32 vs persistencia,lgbm hrc32 per-day2,0,IoU_holdout,0.7272,seguir; falta ablacion hrc0 y persistencia en server
+E004,2026-10-29,T4,ODME con conteos propios del split (lsq_linear dispersa = mismo objetivo nnls oficial),own lam0.05,-,link_rmse_val,0.1-2.6 veh/h,usar; S_od/S_dev solo en LB
+E005,2026-10-29,T2,LGBM sin HRC vs persistencia (8 corredores holdout 45d 646 ventanas),lgbm hrc0 per-day1 th0.25,0,IoU_holdout,0.6668 (persist T 0.4096; T-5 0.3903),control profesional
