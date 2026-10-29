@@ -4,9 +4,9 @@ __pycache__/
 .env*
 *.pem
 *.key
-data/
-models/
-checkpoints/
+/data/
+/models/
+/checkpoints/
 *.parquet
 *.pt
 *.safetensors

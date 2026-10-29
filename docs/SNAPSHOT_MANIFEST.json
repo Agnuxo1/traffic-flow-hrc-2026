@@ -1,15 +1,15 @@
 {
-  "source_snapshot_utc": "2026-10-29T07:07:39.561584+00:00",
+  "source_snapshot_utc": "2026-10-29T07:12:29.606734+00:00",
   "files": [
     {
       "path": ".github/workflows/release.yml",
-      "bytes": 311,
-      "sha256": "ff801f2d08f4e279821cc2a9787b723ea897ab03b93c6d31dafc91afbc42fee7"
+      "bytes": 298,
+      "sha256": "3bf8c6048a92e11e56b5e658a783e786240242503b6ef53368fe469d02b386f2"
     },
     {
       "path": ".gitignore",
-      "bytes": 135,
-      "sha256": "22d4eaee305e67584737d9b3ca7f7c1bb8c30cb15b2e8e3875d3d5cfe09ed358"
+      "bytes": 124,
+      "sha256": "e617ae056bcea7553fb3bd605e137457155b63faaa5b880fe5d5bc2495f2e28e"
     },
     {
       "path": "code/hrc/__init__.py",
@@ -38,18 +38,18 @@
     },
     {
       "path": "code/official_config/corridors.json",
-      "bytes": 2147,
-      "sha256": "06b13fe08c845ad50a418cff726604d0497a6dde11edbe87323de751476dc350"
+      "bytes": 2045,
+      "sha256": "613981c083b07e846ba10a15f5b3b3b665aab3192064a1baee330813154a3797"
     },
     {
       "path": "code/official_config/synthetic_release_v1.json",
-      "bytes": 2535,
-      "sha256": "9dfc3ebfc9b1dab4f138918b4f73b407ce711d82a14fc96ab13b0ac2b56c29e4"
+      "bytes": 2490,
+      "sha256": "bc73b9c0c6d89c55e10d71831a5769d2ea316b76c11f505d470210b46b677022"
     },
     {
       "path": "code/official_config/task3_lwr_modes.json",
-      "bytes": 3217,
-      "sha256": "7e9261193c24581119413f2a9583ef36b8a7e55d4e967bfe8411d6e6978db7d0"
+      "bytes": 3079,
+      "sha256": "d5e79e1765266df62cb369245bb2c10183a325a3675c48925d5b5c2c38122fc1"
     },
     {
       "path": "code/official_src/README.md",
@@ -78,18 +78,18 @@
     },
     {
       "path": "code/task1.py",
-      "bytes": 13611,
-      "sha256": "72846b2c3532e43d3ef3629635355eb218253d90d14d746a5a6e1bca9390798a"
+      "bytes": 13311,
+      "sha256": "8d716855d234dca14bac16dd7a30bf011810307e248dad904bc78a09b16aeeed"
     },
     {
       "path": "code/task2.py",
-      "bytes": 10806,
-      "sha256": "7e8a911baa4e8f4205a32da094d19ef1cea0c4210dc6d45ecd8520b9f739dbf3"
+      "bytes": 10579,
+      "sha256": "b068995cc6d0e989597a971e19c76cad98ff5b49ed5c4046e9dc2a1917c6a5dd"
     },
     {
       "path": "code/task4.py",
-      "bytes": 2345,
-      "sha256": "56bda747e5d51b0d2f2e9ef413090be00364e8615b4272a680b6636bd3754034"
+      "bytes": 2304,
+      "sha256": "96bbbba824866c3b27e9557dcd296ac74eb5ec95a6ea9b1642d9e41ce931dda5"
     },
     {
       "path": "code/tfb_common.py",
@@ -98,8 +98,8 @@
     },
     {
       "path": "docs/PROJECT_STATUS.json",
-      "bytes": 297,
-      "sha256": "b52b0b8ee11d8fe1419b4f10036c5efef36ddb552ef7f27338fdac6f03cc2938"
+      "bytes": 290,
+      "sha256": "8ebe12304210ef08a600b88b1eaa22536e54ab14a9d184a84407ae46239accca"
     },
     {
       "path": "docs/REPRODUCTION_GAP.md",
@@ -108,8 +108,8 @@
     },
     {
       "path": "docs/RESEARCH_PROTOCOL.md",
-      "bytes": 1019,
-      "sha256": "68d8a6ee01a9b892000e4b4b270da8c38d5ebe9fc504a708c576fe81b05f6b15"
+      "bytes": 1012,
+      "sha256": "75644869eb164766415151e4d6983e9af5f0659dd85b48fe43c7f4c2a8b29764"
     },
     {
       "path": "experiments/LOG.csv",
@@ -133,13 +133,13 @@
     },
     {
       "path": "tools/check_release.py",
-      "bytes": 1341,
-      "sha256": "64ff3f8ad74db8a5fc1990965d366240f7930f599ab3113bc7e2a439226b1c3a"
+      "bytes": 1318,
+      "sha256": "c0370e075a1b624184c722b2516a79e046a421f8085d08485cb082bdb9b0c124"
     },
     {
       "path": "tools/update_manifest.py",
-      "bytes": 649,
-      "sha256": "1f3fba6a0e3c5f0398450ef6ea6c2734fc2020264a0e6253fb0f10515b0e76df"
+      "bytes": 653,
+      "sha256": "0538a3dbdfe064c5ffdf44ea142d78df0b6af0819cbfb8cb0cdc686c26196595"
     }
   ]
 }
