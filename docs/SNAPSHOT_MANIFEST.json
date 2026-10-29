@@ -1,5 +1,5 @@
 {
-  "source_snapshot_utc": "2026-10-29T07:20:17.885563+00:00",
+  "source_snapshot_utc": "2026-10-29T08:39:40.417411+00:00",
   "files": [
     {
       "path": ".github/workflows/release.yml",
@@ -102,6 +102,61 @@
       "sha256": "8ebe12304210ef08a600b88b1eaa22536e54ab14a9d184a84407ae46239accca"
     },
     {
+      "path": "docs/readme/01-banner.gif",
+      "bytes": 456183,
+      "sha256": "156f4e6a816e27334ca17b09b43a64d2de6265cfce53b9c6427a9f0d6b37be4d"
+    },
+    {
+      "path": "docs/readme/02-tasks.gif",
+      "bytes": 581566,
+      "sha256": "756e8696fa12ec27652da04b0e9373949c4d5d90f4014001ccac7ed52636aff3"
+    },
+    {
+      "path": "docs/readme/03-queue-iou.gif",
+      "bytes": 286752,
+      "sha256": "cb3941bbc25d375f962717266e4a723ed636452bf9f36a55917e81ce32720e17"
+    },
+    {
+      "path": "docs/readme/04-od-estimation.gif",
+      "bytes": 613583,
+      "sha256": "7c6dbe3ba48cba0a1fb0409b8de96a2225da3cebd1015247f9de4d65cea6efbb"
+    },
+    {
+      "path": "docs/readme/05-experiment-log.gif",
+      "bytes": 691652,
+      "sha256": "8b3bbc36dbbb79a1b81b786b09ab26407e5186c925e1822f07dfa8fa7e8cfa62"
+    },
+    {
+      "path": "docs/readme/06-reproduce.gif",
+      "bytes": 222593,
+      "sha256": "14ded3f8d4423c763682176b7c46ef52fb1f75eace439d166466419c29b33a6a"
+    },
+    {
+      "path": "docs/readme/07-protocol.gif",
+      "bytes": 794758,
+      "sha256": "bdee0b38abb072e10e7d2c302cd12d6a651256a7394f53c15d3a5d7a08db3e36"
+    },
+    {
+      "path": "docs/readme/08-background.gif",
+      "bytes": 182222,
+      "sha256": "fa06a6fc3d5deac921e9443410e616bff80aa2163630eb3bf787ffa69b390003"
+    },
+    {
+      "path": "docs/readme/09-applications.gif",
+      "bytes": 600654,
+      "sha256": "baa197e9ad22cb290750a5196bbc28850ee4422f3d30ae8ed7332ac7462a1993"
+    },
+    {
+      "path": "docs/readme/10-improvements.gif",
+      "bytes": 443041,
+      "sha256": "f89b622ee96426a3541e1e808e515344dd3ed21c8503b0a8f2f8ac3fb8b95e92"
+    },
+    {
+      "path": "docs/readme/11-roadmap.gif",
+      "bytes": 250421,
+      "sha256": "6355264315af59cf27f5abbb5651a8d0da277b708a4488b01e704dbdb2df389d"
+    },
+    {
       "path": "docs/REPRODUCTION_GAP.md",
       "bytes": 237,
       "sha256": "802168dc77b7ffe91d6bb93f0f4580112bac384d3a45bb687907ee9e96c5e4fc"
@@ -128,8 +183,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2502,
-      "sha256": "42bc7716088624285875cd6d0abcff395d97e369b85ce42a256e0e0c1259b99d"
+      "bytes": 13952,
+      "sha256": "06b3eaa53283ba602bbad2bbd5cb02c16a8e75586ea942b9a5e7a3804e05261e"
     },
     {
       "path": "tools/check_release.py",
