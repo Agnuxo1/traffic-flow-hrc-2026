@@ -1,5 +1,5 @@
 {
-  "source_snapshot_utc": "2026-10-29T07:12:29.606734+00:00",
+  "source_snapshot_utc": "2026-10-29T07:20:17.885563+00:00",
   "files": [
     {
       "path": ".github/workflows/release.yml",
@@ -128,8 +128,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2498,
-      "sha256": "f99f491f1f8b0c544c5d03f105368e50239412591779ab5a083bc23888513a92"
+      "bytes": 2502,
+      "sha256": "42bc7716088624285875cd6d0abcff395d97e369b85ce42a256e0e0c1259b99d"
     },
     {
       "path": "tools/check_release.py",

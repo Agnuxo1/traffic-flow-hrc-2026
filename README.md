@@ -4,7 +4,7 @@ Implementation for [IEEE Big Data Traffic Flow Bench](https://www.kaggle.com/com
 
 ## Current evidence
 
-The CPU control for queue prediction has a campaign-recorded holdout IoU of approximately0.667, compared with persistence approximately0.41. The32-unit reservoir comparison and state-reconstruction runs are still incomplete. The OD solution uses non-negative prior-regularised least squares with lambda0.05. These are exploratory local records, not independently verified official scores or a demonstrated reservoir gain. Detailed logs remain in [experiments](experiments).
+The CPU control for queue prediction has a campaign-recorded holdout IoU of approximately 0.667, compared with persistence approximately 0.41. The 32-unit reservoir comparison and state-reconstruction runs are still incomplete. The OD solution uses non-negative prior-regularised least squares with lambda 0.05. These are exploratory local records, not independently verified official scores or a demonstrated reservoir gain. Detailed logs remain in [experiments](experiments).
 
 The historical server jobs were cancelled by their owner and work continued on the local CPU; this publication does not restart or cancel any job. Prize eligibility is unresolved because the separate organiser-email registration deadline may have passed. Kaggle membership alone is not proof of that registration or prize eligibility.
 
