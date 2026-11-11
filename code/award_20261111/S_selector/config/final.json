@@ -1,0 +1,40 @@
+{
+  "family": "selector-final-v1",
+  "purpose": "Reviewable candidates for the owner. Selecting or uploading any file is the owner's decision.",
+  "base": {
+    "path": "/mnt/datos/competition-campaigns/traffic-umud-20261105/inputs/traffic/sub_v1.csv",
+    "sha256": "c3c6eeaabdcc1335480f33fae9cc37a0ec982f6f428f273bc256034bc2caebb0"
+  },
+  "arms": {
+    "S": {
+      "job": "fd9c92c91852490d",
+      "threshold": 0.5,
+      "models": [
+        {"path": "/mnt/datos/competition-campaigns/traffic-umud-20261105/claude-hypothesis-20261106/evidence-fd9c92c91852490d/job/results/model_S_101.pt", "sha256": "38080767731177e589d925cbb7a9fe1432f36697f343565e1d97cda0d3695644"},
+        {"path": "/mnt/datos/competition-campaigns/traffic-umud-20261105/claude-hypothesis-20261106/evidence-fd9c92c91852490d/job/results/model_S_202.pt", "sha256": "6d89cde6241fd9142a3186de2f5dfc5448e62c97fed9292ad0bbaccf308425c3"},
+        {"path": "/mnt/datos/competition-campaigns/traffic-umud-20261105/claude-hypothesis-20261106/evidence-fd9c92c91852490d/job/results/model_S_303.pt", "sha256": "81d4bddb3c454edc6ea2eb5eea27e86eb964d238be860f675aac0fc3b2b8df57"}
+      ]
+    },
+    "F": {
+      "job": "93cf5c164e954d0c",
+      "threshold": 0.6,
+      "models": [
+        {"path": "/home/ai/servidor-ia/jobs/93cf5c164e954d0c/work/results/model_A_101.pt", "sha256": "f387301a85eca503c60d0f9fb6e7f339dc2a38cc4f0bf3873cde21aa238638b2"},
+        {"path": "/home/ai/servidor-ia/jobs/93cf5c164e954d0c/work/results/model_A_202.pt", "sha256": "93bfa8bddb59d3be47600d090623dd93363b93c3283577bb56054069dc928027"},
+        {"path": "/home/ai/servidor-ia/jobs/93cf5c164e954d0c/work/results/model_A_303.pt", "sha256": "637aa3415c382572f3c1a3d7b38ba4f5623ee07710481d82b1e517ea7558b6b7"}
+      ]
+    }
+  },
+  "frozen_result": {
+    "choices_path": "/mnt/datos/competition-campaigns/traffic-umud-20261105/claude-hypothesis-20261106/evidence-fd9c92c91852490d/job/results/choices-frozen.json",
+    "choices_sha256": "60e6ec749da1c01c5fd8bd7fd284c85e8e66255548e908d2b5cfb9aff47d49ae",
+    "probabilities_path": "/mnt/datos/competition-campaigns/traffic-umud-20261105/claude-hypothesis-20261106/evidence-fd9c92c91852490d/job/results/probabilities.npz",
+    "probabilities_sha256": "d563c1db1a229753627b70f179b814a5c08df3d481a32d0035d8fb342a083cbc",
+    "matched_path": "/mnt/datos/competition-campaigns/traffic-umud-20261105/claude-hypothesis-20261106/inputs/traffic-selector-v2.npz",
+    "matched_sha256": "96ab6b2ba09c43e4bda2a1eb8cb91eb357ef01757a11635c5b05bfe761864753",
+    "ensemble_scores": {"S": 0.739324734952497, "F": 0.5442961431507392}
+  },
+  "hard_stop_utc": "2026-11-07T04:55:00Z",
+  "confirmation_opened": false,
+  "portal_submission": false
+}

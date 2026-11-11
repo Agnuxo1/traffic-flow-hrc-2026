@@ -1,0 +1,53 @@
+{
+  "variant": "selection-only-no-confirm-v2",
+  "upstream_source_archive_sha256": "ea9576e13351a65a5ac7619ac40389dd5561379e7c46cd303321027123dc7e14",
+  "controller_base_sha256": "886b68f9d74c3cb4707fe2edfa2a2ef75a5ef8d18e4a199aa45ab3b42d1a7054",
+  "confirmation_evaluation": "disabled",
+  "opaque_legacy_job_ids": [
+    "20b0502495c44cdf"
+  ],
+  "preserved_finalizer_functions": {
+    "digest": "c372fe6f5ffdd6852c20b72f77f78f3ed5d453bf69b05ee5d5945f49058b4c71",
+    "choose_family": "966e1e219f872958ed24e3c6cd1b749bf354baa3aa53108e8c2b2b9a438000c2",
+    "ensemble_calibration_partition": "74e4d09e0d772f64dd2dd342e7625a2d54115861621148b7462c7b68148a269a",
+    "checkpoints": "63b7ae2d9e611fd3298d3d04b9abe5f23758c973e7d892b820454876a7e87478",
+    "ensemble": "cae053b7137430de26f79eeb01edf522e5d1a2c6eaaf8994ba74f6139ba1ba30",
+    "build_queue": "9b204aaa04dad463239709165df4607bfbcb891ba25a9d617b32bd99261d2306",
+    "combine": "49cef1606f57be4f776506a04b547260c2922d5302c039f8d274b6b11d5e2409"
+  },
+  "unchanged_dependency_sha256": {
+    "promotion.py": "6484b98e18ebc486d188aba8454eff937d180cc4961504cc23ee99f22e987ac4",
+    "queue_features.py": "38d2104b56edd0ce0d7d467b24b6487b98b6648b8d2b39c36e6f4dfb905780f9",
+    "replica_loader.py": "470e1ec2ff474de7f9b48726e8011ea9ee62326943f5433df4f9c462bcfad12a",
+    "replica_queue.py": "934b881a70e11e3685b1c9635ce2edf9a84d1bd118e1eb23e364136c921c040f",
+    "stream_loader.py": "16982a08d257f4bfaa2ecba14b914e1966aaffb66c87e9d0eafa6bdb1da3c0df",
+    "tfb_common.py": "ac0ed71cad6d319868a475a7fa8fb9d6e2a18af3b822d3627820627523d7aae0"
+  },
+  "original_calibration_populations": {
+    "ordinary": "exact split1 x_t, all original selection rows",
+    "IOU": "exact split0 and day>=globalmaxday+1-60 x_t; original frozen rule"
+  },
+  "changed_selection_scoring_threshold_or_CSV_logic": false,
+  "no_new_training_or_experiment_promotion": true,
+  "external_submission_authorized": false,
+  "hard_close_utc": "2026-11-07T06:55:00Z",
+  "source_archive_file": "source-v2.tar.gz",
+  "prediction_cache_reuse": {
+    "parent_job_id": "da68b7c2779740d5",
+    "arm": "A",
+    "root_relative": "codex-rdrop-20261106",
+    "receipt_sha256": "935402c7b1747e7c0d898d67e438f6b78b932991817aa2d4015ab83569f20a3e",
+    "frozen_sha256": "1379186b86c2d9ff24771f4de03199454f9c6eb171dfe533c78a6cd43b11300e",
+    "inventory_sha256": "7012d10e5dcf1d293b946fb817be25fc24eed362ad2f6d0c8565d427ab1ede19",
+    "data_manifest_sha256": "2038c2c217a3f215d07ac96df93564098408f9350a583bf2c5da3c2200e71a53",
+    "prediction_protocol_sha256": "1900f51472492e93aea45665326301b5f14f83ce4c4db5f5efff8fa47be5cf16",
+    "offsets": [
+      101,
+      202,
+      303
+    ],
+    "treatment_cache_reuse_allowed": false,
+    "CPU_GPU_parity_limit": "Inherited receipt verifies calibration parity only. No new full30day ensemble-grid GPU parity is claimed.",
+    "decision_rule": "Original score/thresholdgrid/ensemble mean unchanged; cache lookup uses weights/data/population identity, not experiment outcome."
+  }
+}
