@@ -14,6 +14,10 @@ Implementation for [IEEE Big Data Traffic Flow Bench](https://www.kaggle.com/com
 
 **Contents** — [Current evidence](#current-evidence) · [Reproduce](#reproduce) · [Scientific comparison](#scientific-comparison) · [Background](#background) · [Real-world applications](#real-world-applications) · [Possible improvements](#possible-improvements) · [Future work](#future-work) · [Bibliography](#bibliography)
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> Conservation features and a lightweight CPU control provide an accessible starting point for reconstructing traffic states and predicting queues. The <a href="#scientific-comparison">matched comparison protocol</a> isolates what an added reservoir contributes before more complex computation is adopted, and preserves simpler persistence baselines. Current evidence supports benchmark development; reservoir superiority and reductions in real congestion, fuel use or emissions remain unestablished.</sub>
+<!-- impact-note:end -->
+
 ## Current evidence
 
 <p align="center"><img src="docs/readme/02-tasks.gif" alt="Three tasks, masked state, queue prediction and OD estimation, merged into one submission file" width="100%"><br><sub>Fig. 1 — Task structure. Source: code/README.md.</sub></p>
